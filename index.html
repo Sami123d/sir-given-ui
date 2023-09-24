@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+   <link rel="stylesheet" href="style.css">  
+  </head>
+  <body>
+     <section class="nav-contain">
+      <div class="upper-header" style="background-color: #005085;">
+        
+      </div>
+      <div class="bottom-header">
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid nav-pad-cont-bottom" >
+            <a class="navbar-brand ms-auto" href="#" style="color: rgb(14, 179, 235); "><i class="fa-solid fa-car-side" style="color: #005085;"></i> Rent</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                
+                
+                <li class="nav-item dropdown font-nav-size">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Rent a Car
+                  </a>
+                  <ul class="dropdown-menu font-nav-size">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown font-nav-size">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Brands
+                  </a>
+                  <ul class="dropdown-menu font-nav-size">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown font-nav-size">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Yacht Rental
+                  </a>
+                  <ul class="dropdown-menu font-nav-size">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-nav-size" aria-current="page" href="#">Promotion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-nav-size" aria-current="page" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <ul class="rgt-nav navbar-nav ms-auto  mb-2 mb-lg-0 ">
+                <li><a class="nav-link font-nav-size d-flex align-items-center" aria-current="page" href="#" >Login</a></li>
+                <li><button class="btn font-nav-size text-white" style="background-color: rgb(14, 179, 235); border-radius: 0;" type="submit">Get Started <i class="fa-solid fa-arrow-right"></i></button></li>
+              
+              </ul>
+                
+            </div>
+          </div>
+        </nav>
+      </div>
+     </section>
+     <section class="first-hero-cont bg-body-tertiary">
+      <div class="container" style="padding-top: 87px;">
+         <div class="row" >
+        <div class="col-md-6 col-lg-6">
+           <h4>Rent a car in <span class="fw-bold position-relative">Dubai<img class="position-absolute" style="right: -21px;
+            top: 8px;" src="https://smit-task.netlify.app/images/home/DESIGN-removebg-preview.png"    width="70px"  alt="">
+</h4></span>
+           <h1>Find your dreams car within a minute</h1>
+           
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi consequuntur necessitatibus ullam , consectetur adipisicing elit. Nisi ?</p> 
+           <div class="btns-first-cont ">
+            <img class="" src="https://www.tipt.tech/assets/google_play_download_btn-0c3f201ff977a2359db29dbd1c3f642a0cc4014006c09fe437c0695963a5fe22.png" width="110px"  alt="" srcset="">
+            <img src="https://w7.pngwing.com/pngs/422/842/png-transparent-apple-store-logo-app-store-android-google-play-get-started-now-button-text-logo-black.png" width="110px" alt="" srcset="">
+           </div>
+          </div>
+        <div class="col-md-6 col-lg-6" style="padding-top: 30px;">
+          <div class="img-fluid">
+            <img src="./assets/cars-no-bg-1.png" width="100%" alt="" srcset="">
+          </div>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-md-8">
+          <form class="d-flex" role="search">
+            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+            <input type="date" id="pickupDate" name="pickupDate">
+            <input type="time" id="pickupTime" name="pickupTime">
+            <input type="date" id="pickupDate" name="pickupDate">
+            <input type="time" id="pickupTime" name="pickupTime">
+
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+      </div>
+      
+     </section>
+     
+     <section class="sec-hero-cont ">
+      <div class="head-sec-hero row" style="margin-top: 30px;">
+        <div class="col-md-6"> 
+          <h1>Why you should  <span style=" color: #E18234;">Rent a car </span>with us?</h1>
+        </div>
+      </div>
+      <div class="sec-bar-about"  style="margin-top: 30px;">
+         <div class="row bar-hero-row">
+        <div class="col-md-3 col-border-bar-sec" >
+          <div class="row  bar-hero-row">
+             <div class="sec-hero-bar-num col-5">
+            450
+          </div>
+          <div class="col-5  bar-hero-row-heading">
+            Rental  companies
+          </div>
+          </div>
+         
+        </div> 
+        <div class="col-md-3 col-border-bar-sec">
+          <div class="row bar-hero-row">
+            <div class="sec-hero-bar-num col-5">
+            350
+          </div>
+          <div class="col-5 bar-hero-row-heading">
+            Rental cars Registered
+          </div>
+          </div>
+          
+      </div>
+        <div class="col-md-3 col-border-bar-sec">
+          <div class="row  bar-hero-row">
+            <div class="sec-hero-bar-num col-5"  >
+            35k
+          </div>
+          <div class="col-5 bar-hero-row-heading">
+            Satisfied cilents
+          </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3 ">
+          <div class="row  bar-hero-row">
+            <div class="sec-hero-bar-num col-5">
+            60
+          </div>
+          <div class="col-5 bar-hero-row-heading">
+            Seconds average booking Time
+          </div>
+          </div>
+          
+        </div>
+      </div>
+      </div>
+      <div class="sec-head-slect-city row">
+        <div class="col-md-6 col-sm-6">
+        <h4>Find car Rental and driver services near you <span></span></h4>
+        
+       
+        </div>
+        <div class="col-md-4 col-sm-4">
+           <div class="dropdown">
+          <button class="btn dropdown-toggle" style="padding: 0;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <span style="color: rgb(14, 179, 235); font-size: 25px;">  Select City</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Action two</a></li>
+            <li><a class="dropdown-item" href="#">Action three</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+     <div class="container" style="margin-top: 25px !important;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ ">
+      <div class="card border-0" style="width: 12rem;">
+        <img src="https://smit-task.netlify.app/images/find%20a%20car/4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Luxury <br> 560 Cars</p>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 12rem;">
+        <img src="https://smit-task.netlify.app/images/find%20a%20car/3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Luxury <br> 560 Cars</p>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 12rem;">
+        <img src="https://smit-task.netlify.app/images/find%20a%20car/4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Luxury <br> 560 Cars</p>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 12rem;">
+        <img src="https://smit-task.netlify.app/images/find%20a%20car/3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Luxury <br> 560 Cars</p>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 12rem;">
+        <img src="https://smit-task.netlify.app/images/find%20a%20car/4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Luxury <br> 560 Cars</p>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 12rem;">
+        <img src="https://smit-task.netlify.app/images/find%20a%20car/3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Luxury <br> 560 Cars</p>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 12rem;">
+        <img src="https://smit-task.netlify.app/images/find%20a%20car/4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Luxury <br> 560 Cars</p>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 12rem;">
+        <img src="https://smit-task.netlify.app/images/find%20a%20car/3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Luxury <br> 560 Cars</p>
+        </div>
+      </div>
+     </div>
+     <div class="row justify-content-center " style="margin-top: 25px;">
+      <div class="col-4">
+        <button type="button"  style="width: 100% !important; " class="btn btn-outline-info">See More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+        </svg></button>
+      </div>
+     </div>
+     </section>
+     <section class="book-car">
+
+      <div class="row">
+        <div class="row">
+         <div class="col-md-7">
+         <h2>Book your suitable Car</h2>
+         </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, vero deserunt! Velit!
+         </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <div class="dropdown-center">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Price
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Action two</a></li>
+                <li><a class="dropdown-item" href="#">Action three</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-center">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Price
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Action two</a></li>
+                <li><a class="dropdown-item" href="#">Action three</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-center">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Location
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Action two</a></li>
+                <li><a class="dropdown-item" href="#">Action three</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-center">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                color
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Action two</a></li>
+                <li><a class="dropdown-item" href="#">Action three</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-center">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Rating
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Action two</a></li>
+                <li><a class="dropdown-item" href="#">Action three</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
