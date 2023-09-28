@@ -1,8 +1,15 @@
-
+.upper-header{
+    display: flex;
+    justify-content: space-between;
+}
+.right-upper-head-ul{
+    gap: 23px;
+    display: flex;
+    flex-direction: row;
+}
 
 .font-nav-size{
-    font-size: 13px !important;
-    
+    font-size: 1rem !important;    
 }
 .rgt-nav{
     gap: 20px;
@@ -44,6 +51,21 @@
 .sec-head-slect-city{
     margin-top: 30px;
 }
+.bg-car-ferrari{
+    background: url(https://smit-task.netlify.app/images/image/1.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 20px;
+}
+.padding-bg-ferrari{
+    padding-left: 30px;
+    padding-right: 30px;  
+} 
+.sec-bg-car-cont{
+    padding: 7% 0 7% 0;
+}
 @media screen and (max-width: 993px) {
     .navbar-brand{
         margin-left: 0px !important;
@@ -55,7 +77,11 @@
     .nav-pad-cont-bottom{
         padding: 0 10px 0 10px;
     }
-    
+    .padding-bg-ferrari{
+        
+        padding-left: 15px;
+        padding-right: 15px;  
+    } 
 }
 
 @media screen and (max-width:770px){
@@ -63,4 +89,49 @@
         border-right: none;
         border-bottom: 1px solid black;
     }
+}
+@media screen and (min-width: 1200px){
+  .h4, h4 {font-size: 2.5rem;}
+  .h1, h1 {font-size: 3.5rem;}
+  
+  .first-hero-para{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px){
+    .right-upper-head-li{
+        display: none;
+    } 
+}
+
+.product-container {
+    width: 300px; /* Adjust the size of the container */
+    perspective: 1000px;
+}
+
+.product-images {
+    width: 100%;
+    transform-style: preserve-3d;
+    animation: rotate 10s infinite linear;
+}
+
+.product-images img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.product-container:hover .product-images {
+    animation-play-state: paused;
 }
