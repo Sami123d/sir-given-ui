@@ -137,15 +137,7 @@
         border-right: none;
         border-bottom: 1px solid black;
     }
-}
-@media screen and (min-width: 1100px){
-  .h4, h4 {font-size: 2.5rem;}
-  .h1, h1 {font-size: 3.5rem;}
-  
-  .first-hero-para{
-    font-size: 2.0rem;
-  }
-}
+
 
 @media screen and (max-width: 500px){
     .right-upper-head-li{
